@@ -53,7 +53,7 @@ Example: match: [1, 2, 3] where the numbers represent the IDs of units.
 Example: alternative: [{id: 1, availableStarting: "2021-06-02"}, {..}]
 
 
-"Other" is a further set of suggestions if no matches were found for the same unit type and number of bedrooms, for example, if the request is originally for a one-bedroom apartment during Feb, but that unit is only available starting August, then "other" would include other units (1 bedroom, 2 bedrooms, etc.) that match or are close to the requested date filters (but must still be within the same city).
+"Other" is a further set of suggestions if no matches were found for the same unit type and number of bedrooms, for example, if the request is originally for a one-bedroom apartment during Feb, but that unit is only available starting August, then "other" would include other units (1 bedroom, 2 bedrooms, etc.) that match or are close to the requested filters (but must still be within the same city).
 
 
 Setup a relational database of your choice, create the models and load the fixture and then build the program on top of it.
