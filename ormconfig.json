@@ -1,0 +1,12 @@
+{ 
+    "type": "sqlite",  
+    "database": "./db.sql", 
+    "synchronize": true, 
+    "logging": false, 
+    "entities": [
+       "src/Entity/**/*.entity.ts" 
+    ], 
+    "cli": { 
+       "entitiesDir": "src/entity"
+    } 
+ }
